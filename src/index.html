@@ -10,20 +10,22 @@
 </head>
 <body>
     <div>
-        <h1>Learn to code by watching others</h1>
+        <h1 id="slogan">Learn to code by watching others</h1>
         <br>
-        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great but, understanding how developers think is invaluable.</p>
+        <p id="txt">See how experienced developers solve <br> problems in real-time. Watching <br> scripted tutorials is great, but <br> understanding how developers think is <br> invaluable.</p>
     </div>
 
-    <a href="#"><span>Try it free 7 days</span> then $20/mo. thereafter</a>
-
-    <form action="">
-        <input type="text" name="" id="" placeholder="First Name">
-        <input type="text" name="" id="" placeholder="Last Name">
-        <input type="email" name="" id="" placeholder="Email Address">
+    <div id="button-container">
+    <button id="btn"><a href="#" id="trial">Try it free 7 days</a> <br> then $20/mo. thereafter</button>
+        </div>
+    <form action="" id="sign-up-form">
+        <input type="text" name="firstname" id="" placeholder="First Name" class="txt-box">
+        <input type="text" name="lastname" id="" placeholder="Last Name" class="txt-box">
+        <input type="email" name="email" id="" placeholder="Email Address" class="txt-box">
+        <input type="password" name="password" id="" placeholder="Password" class="txt-box">
         <br>
-        <input type="button" value="CLAIM YOUR FREE TRIAL">
-        <p>By clicking the button you are agreeing to our <a href="">Terms and Services</a> </p>
+        <input type="button" value="CLAIM YOUR FREE TRIAL" id="sign-up-btn">
+        <p id="terms-services">By clicking the button you are agreeing to <br> our <a href="" id="terms">Terms and Services</a> </p>
     </form>
     
 </body>
